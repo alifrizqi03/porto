@@ -1,0 +1,218 @@
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="por.js" rel="javascript"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/pandalogo.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fas fa-bars" id="menu-toggle" onclick="toggleMenu()"></i>
+            </nav>
+            
+            
+            <div class="header-text">
+                <p>UI/UX Design & Front End Programmer</p>
+                <h1>Hi, I,m <span>Alif</span><br /> Live in Malang, East Java</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> What About Me ?</h1>
+                    <p>
+                        I am an informatics engineering student who likes to
+                        learn
+                        especially UI/UX design and front end development.
+                        I am currently continuing my education as a student
+                        while
+                        seeking experience and practical advantages in my field.
+                        Understand the development of mobile and web-based
+                        software,
+                        proficient in programming languages HTML, CSS,
+                        JavaScript,
+                        and Dart.
+                        Proficient in utilizing the Laravel framework and
+                        Flutter.
+                        Enjoy working in a team and good adaptability and
+                        communication skills. I have a strong interest in
+                        software
+                        design and
+                        development
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"
+                            onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('tools')">
+                            Tools
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Hard Skill</span><br />UI/UX Design, Front End Web and Mobile development, Photo and Video Editing, Photography  </li>
+                            <li><span>Soft Skill </span><br />Problem Solving,Comunication,Management, Adaptability </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>BBIB Singosari</span><br />Desingning web
+                                and make a system for staff </li>
+                            <li><span>UI/UX</span><br />Desingning web and
+                                mobile </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Senior High Scool 7 Malang</span><br /> High School Diploma in Science <br />2017
+                                - 2020 </li>
+                            <li><span>University of Muhammadiyah Malang</span><br />Bachelor of Computer Science (GPA 3.92/4.00)<br /> 2020
+                                - Present </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tools">
+                        <ul>
+                            <li><span>Tools Code</span><br />VS Code, Android Studio, Xcode<br /></li>
+                            <li><span>Web Development</span><br />My SQL, Laravel<br /></li>
+                            <li><span>Mobile Development</span><br />Flutter(Dart), Swift<br /> </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Tools using Laravel Framework based on HTML, CSS, and JavaScript
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-mobile-alt"></i>
+                    <h2>Mobile Development</h2>
+                    <p>
+                        Tools using Flutter based on Dart programming
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-paint-brush"></i>
+                    <h2>UI/UX Design web and mobile</h2>
+                    <p>
+                        Tools using Figma, can do Web Design and mobile Android/iOS design
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work2.png" alt="Work 1" />
+                    <div class="layer">
+                        <h3>Mental Health UI App</h3>
+                        <p>
+                            Description of your project goes here.
+                        </p>
+                        <a href="#"> 
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2.png" alt="Work 2" />
+                    <div class="layer">
+                        <h3>Train Booking UI App</h3>
+                        <p>
+                            Description of another project goes here.
+                        </p>
+                        <a href="#"> 
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2.png" alt="Work 3" />
+                    <div class="layer">
+                        <h3>Medicine Reminder Mobile App</h3>
+                        <p>
+                            Description of the third project goes here.
+                        </p>
+                        <a href="#"> 
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>
+                        alifrizqi03@gmail.com</p>
+                    <p><i class="fab fa-whatsapp"></i>081341291122</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/alipilo_03/">Instagram
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/Pandasingular">Twitter
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/alif-rizqi-apriliandra-96081015a/">LinkedIn
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <a href="image/myvc.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
